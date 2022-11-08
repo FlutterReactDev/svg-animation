@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <!-- CSS -->
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+    <link href="slick/slick.css" rel="stylesheet">
+    <link href="slick/slick-theme.css" rel="stylesheet">
+  </head>
+
+  
+  <body>
+
+    <div class="backdrop"></div>
+    <div class="backdrop2"></div>
+
+    <nav class="mt-mobile nav-open">
+          <div class="container">
+            <div class="mt-munu-mb">
+              
+          <div class="header-navigation-wr">
+            <div class="header-navigation">
+              <ul class="burger-ul">
+                <li class="burger-li">
+                  <a href="#">Home</a>
+                </li>
+                <li class="burger-li">
+                  <a href="#">Services</a>
+                </li>
+                <li class="burger-li">
+                  <a href="#">Api docs</a>
+                </li>
+                <li class="burger-li">
+                  <a href="#">Contacts</a>
+                </li>
+                <li class="burger-li">
+                  <a href="#">For resellers</a>
+                </li>
+              </ul>
+              <div class="header-links">
+                <div class="header-link">
+                  <button class="modalButton" onclick="toggleModal('#infoModal')">
+                    <img src="images/header-link.svg" alt="">
+                    Sign in
+                  </button>
+                </div>
+                <div class="header-link">
+                  <button class="modalButton2" onclick="toggleModal2('#infoModal2')">
+                    <img src="images/header-link2.svg" alt="">
+                    Sign up
+                  </button>
+                </div>
+                
+              </div>
+            </div>
+              
+          </div>  
+        </div>  
+             
+
+ 
+          </div>
+
+        </nav>
+    
+    <section class="interior">
+      
+      
+      <header class="header">
+        <div class="container">
+          <div class="header-wrap">
+            <div class="burger">
+               <i><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 6.5H20V8.5H4V6.5ZM4 11.5H20V13.5H4V11.5ZM4 16.5H20V18.5H4V16.5Z" fill="white"/>
+              </svg>
+              </i>
+              <i><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 20.5L6 4.5H8V20.5H6ZM11 20.5V4.5H13V20.5H11ZM16 20.5V4.5H18V20.5H16Z" fill="white"/>
+              </svg>
+              </i> 
+              </div>
+            <div class="header-logo">
+              <a href="#">
+                <img class="headerlogo-desc" src="images/logo3.svg" alt="">
+                <img class="headerlogo-mb" src="images/logo2.png" alt="">
+              </a>
+            </div>
+            <div class="header-right">
+              <ul class="header-ul">
+                <li class="header-li">
+                  <a href="#">Home</a>
+                </li>
+                <li class="header-li">
+                  <a href="#">Services</a>
+                </li>
+                <li class="header-li">
+                  <a href="#">API</a>
+                </li>
+                <li class="header-li">
+                  <a href="#">Contacts</a>
+                </li>
+              </ul>
+              <div class="header-links">
+                <div class="header-link">
+                  <button class="modalButton" onclick="toggleModal('#infoModal')">
+                    <img src="images/header-link.svg" alt="">
+                    Sign in
+                  </button>
+                </div>
+                <div class="header-link">
+                  <button class="modalButton2" onclick="toggleModal2('#infoModal2')">
+                    <img src="images/header-link2.svg" alt="">
+                    Sign up
+                  </button>
+                </div>
+                
+              </div>
+            </div>
+            <div class="header-mobile-link">
+              <button class="modalButton" onclick="toggleModal('#infoModal')">
+                <img src="images/header-link.svg" alt="">
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="titlesection">
+        <div class="container">
+          <div class="titlesection-title">
+            Api documentations
+          </div>
+          <div class="titlesection-suptitle">
+            Here's why ordering SMM services from us can be beneficial for you.
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="container contact-container">
+            <div class="contact-border">
+              <div class="contact-title">
+                Api Docs
+              </div>
+              <div class="api-wrap">
+                <div class="api-block">
+                  <div class="api-title">
+                    HTTP Method
+                  </div>
+                  <div class="api-link">
+                    <a href="#">POST</a>
+                  </div>
+                </div>
+                <div class="api-block2">
+                  <div class="api-title">
+                    API URL
+                  </div>
+                  <div class="api-link2">
+                    <a href="#">https://extra-panel.com/api/v2</a>
+                  </div>
+                </div>
+                <div class="api-block3">
+                  <div class="api-title">
+                    API Key
+                  </div>
+                  <div class="api-suptitle">
+                    Get an API key on the <a href="#">Account</a> page
+                  </div>
+                </div>
+                <div class="api-block4">
+                  <div class="api-title">
+                    Response format
+                  </div>
+                  <div class="api-suptitle2">
+                    JSON
+                  </div>
+                </div>
+              </div>
+              
+              <div class="api-accordion">
+                <div class="accordion2">
+                  <div class="item2 open">
+                    <p class="text">
+                      
+                        Service list
+                      
+                      <svg width="16" height="9" class="icon" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M15.5791 0.420906C15.0178 -0.140366 14.1078 -0.140366 13.5465 0.420907L8.62038 5.34704C8.49416 5.47326 8.2895 5.47326 8.16327 5.34703L3.23715 0.420907C2.67587 -0.140365 1.76587 -0.140366 1.2046 0.420907C0.643326 0.98218 0.643326 1.89218 1.2046 2.45346L7.29803 8.54688C7.90212 9.15097 8.88154 9.15097 9.48563 8.54689L15.5791 2.45346C16.1403 1.89218 16.1403 0.982179 15.5791 0.420906Z" fill="#F35F42"/>
+                      </svg>
+                    </p>
+                    <div class="hidden-box2">
+                      <div class="api-border">
+                        <div class="api-border-block">
+                          <div class="api-border-title">
+                            Parameters
+                          </div>
+                        </div>
+                        <div class="api-border-block2">
+                          <div class="api-border-title">
+                            Description
+                          </div>
+                        </div>  
+                      </div>
+                      <div class="api-border2">
+                        <div class="api-border2-block">
+                          <div class="api-border2-title">
+                            key
+                          </div>
+                        </div>
+                        <div class="api-border2-block2">
+                          <div class="api-border2-title2">
+                            Your API key
+                          </div>
+                        </div>
+                        <div class="api-border2-block">
+                          <div class="api-border2-title">
+                            action
+                          </div>
+                        </div>
+                        <div class="api-border2-block2">
+                          <div class="api-border2-title2">
+                            services
+                          </div>
+                        </div>
+                      </div>
+                      <div class="api-example">
+                        Example response
+                      </div>
+                      <div class="api-height">
+                        <div class="api-absolute">
+                          <button>COPY</button>
+                        </div>
+                        <div class="api-owerflow">
+                          <div class="api-owerflow-text">
+                            [      
+                          </div>
+                          <div class="api-owerflow-text2">
+                            {
+                          </div>
+                          <div class="api-owerflow-text3">        
+                                <span class="api-orange">"service":</span> <span class="api-blue">1</span><span class="api-orange">,</span> <br>
+                                      
+                                <span class="api-orange">"name": "</span><span class="api-green">Followers</span><span class="api-orange">",</span> <br>
+                                       
+                               <span class="api-orange">"type": "</span><span class="api-green">Default</span><span class="api-orange">",</span>
+                                   <br>    
+                               <span class="api-orange">"category": "</span><span class="api-green">First Category</span><span class="api-orange">",</span><br>
+                                      
+                                <span class="api-orange">"rate": "</span><span class="api-blue">0.90</span><span class="api-orange">",</span><br>
+                                      
+                                <span class="api-orange">"min": "</span><span class="api-blue">50</span><span class="api-orange">",</span><br>
+                                     
+                                 <span class="api-orange">"max": "</span><span class="api-blue">10000</span><span class="api-orange">",</span><br>
+                                       
+                               <span class="api-orange">"refill":</span> <span class="api-green">true</span><span class="api-orange">,</span><br>
+                                        
+                              <span class="api-orange">"cancel":</span> <span class="api-green">true</span>
+                          </div> 
+                          <div class="api-owerflow-text2">
+                            },
+                          </div>
+                          <div class="api-owerflow-text2">  
+                            {
+                          </div>
+                          <div class="api-owerflow-text3">        
+                                <span class="api-orange">"service":</span> <span class="api-blue">2</span><span class="api-orange">,</span> <br>
+                                      
+                                <span class="api-orange">"name": "</span><span class="api-green">Comments</span><span class="api-orange">",</span> <br>
+                                       
+                               <span class="api-orange">"type": "</span><span class="api-green">Custom Comments</span><span class="api-orange">",</span>
+                                   <br>    
+                               <span class="api-orange">"category": "</span><span class="api-green">Second Category</span><span class="api-orange">",</span><br><br>
+                                      
+                                <span class="api-orange">"rate": "</span><span class="api-blue">8</span><span class="api-orange">",</span><br>
+                                      
+                                <span class="api-orange">"min": "</span><span class="api-blue">10</span><span class="api-orange">",</span><br>
+                                     
+                                 <span class="api-orange">"max": "</span><span class="api-blue">1500</span><span class="api-orange">",</span><br>
+                                       
+                               <span class="api-orange">"refill":</span> <span class="api-green">false</span><span class="api-orange">,</span><br>
+                                        
+                              <span class="api-orange">"cancel":</span> <span class="api-green">true</span>
+                          </div>  
+                          <div class="api-owerflow-text2">    
+                            }
+                          </div>
+                          <div class="api-owerflow-text">
+                            ]
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item2">
+                    <p class="text">
+                      Add order
+                      <svg width="16" height="9" class="icon" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M15.5791 0.420906C15.0178 -0.140366 14.1078 -0.140366 13.5465 0.420907L8.62038 5.34704C8.49416 5.47326 8.2895 5.47326 8.16327 5.34703L3.23715 0.420907C2.67587 -0.140365 1.76587 -0.140366 1.2046 0.420907C0.643326 0.98218 0.643326 1.89218 1.2046 2.45346L7.29803 8.54688C7.90212 9.15097 8.88154 9.15097 9.48563 8.54689L15.5791 2.45346C16.1403 1.89218 16.1403 0.982179 15.5791 0.420906Z" fill="#F35F42"/>
+                      </svg>
+                    </p>
+                    <div class="hidden-box2">
+                      <div class="api-border">
+                        <div class="api-border-block">
+                          <div class="api-border-title">
+                            Parameters
+                          </div>
+                        </div>
+                        <div class="api-border-block2">
+                          <div class="api-border-title">
+                            Description
+                          </div>
+                        </div>  
+                      </div>
+                      <div class="api-border2">
+                        <div class="api-border2-block">
+                          <div class="api-border2-title">
+                            key
+                          </div>
+                        </div>
+                        <div class="api-border2-block2">
+                          <div class="api-border2-title2">
+                            Your API key
+                          </div>
+                        </div>
+                        <div class="api-border2-block">
+                          <div class="api-border2-title">
+                            action
+                          </div>
+                        </div>
+                        <div class="api-border2-block2">
+                          <div class="api-border2-title2">
+                            services
+                          </div>
+                        </div>
+                      </div>
+                      <div class="api-example">
+                        Example response
+                      </div>
+                      <div class="api-height">
+                        <div class="api-absolute">
+                          <button>COPY</button>
+                        </div>
+                        <div class="api-owerflow">
+                          <div class="api-owerflow-text">
+                            [      
+                          </div>
+                          <div class="api-owerflow-text2">
+                            {
+                          </div>
+                          <div class="api-owerflow-text3">        
+                                <span class="api-orange">"service":</span> <span class="api-blue">1</span><span class="api-orange">,</span> <br>
+                                      
+                                <span class="api-orange">"name": "</span><span class="api-green">Followers</span><span class="api-orange">",</span> <br>
+                                       
+                               <span class="api-orange">"type": "</span><span class="api-green">Default</span><span class="api-orange">",</span>
+                                   <br>    
+                               <span class="api-orange">"category": "</span><span class="api-green">First Category</span><span class="api-orange">",</span><br>
+                                      
+                                <span class="api-orange">"rate": "</span><span class="api-blue">0.90</span><span class="api-orange">",</span><br>
+                                      
+                                <span class="api-orange">"min": "</span><span class="api-blue">50</span><span class="api-orange">",</span><br>
+                                     
+                                 <span class="api-orange">"max": "</span><span class="api-blue">10000</span><span class="api-orange">",</span><br>
+                                       
+                               <span class="api-orange">"refill":</span> <span class="api-green">true</span><span class="api-orange">,</span><br>
+                                        
+                              <span class="api-orange">"cancel":</span> <span class="api-green">true</span>
+                          </div> 
+                          <div class="api-owerflow-text2">
+                            },
+                          </div>
+                          <div class="api-owerflow-text2">  
+                            {
+                          </div>
+                          <div class="api-owerflow-text3">        
+                                <span class="api-orange">"service":</span> <span class="api-blue">2</span><span class="api-orange">,</span> <br>
+                                      
+                                <span class="api-orange">"name": "</span><span class="api-green">Comments</span><span class="api-orange">",</span> <br>
+                                       
+                               <span class="api-orange">"type": "</span><span class="api-green">Custom Comments</span><span class="api-orange">",</span>
+                                   <br>    
+                               <span class="api-orange">"category": "</span><span class="api-green">Second Category</span><span class="api-orange">",</span><br><br>
+                                      
+                                <span class="api-orange">"rate": "</span><span class="api-blue">8</span><span class="api-orange">",</span><br>
+                                      
+                                <span class="api-orange">"min": "</span><span class="api-blue">10</span><span class="api-orange">",</span><br>
+                                     
+                                 <span class="api-orange">"max": "</span><span class="api-blue">1500</span><span class="api-orange">",</span><br>
+                                       
+                               <span class="api-orange">"refill":</span> <span class="api-green">false</span><span class="api-orange">,</span><br>
+                                        
+                              <span class="api-orange">"cancel":</span> <span class="api-green">true</span>
+                          </div>  
+                          <div class="api-owerflow-text2">    
+                            }
+                          </div>
+                          <div class="api-owerflow-text">
+                            ]
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item2 open">
+                    <p class="text">
+                      User balance
+                      <svg width="16" height="9" class="icon" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M15.5791 0.420906C15.0178 -0.140366 14.1078 -0.140366 13.5465 0.420907L8.62038 5.34704C8.49416 5.47326 8.2895 5.47326 8.16327 5.34703L3.23715 0.420907C2.67587 -0.140365 1.76587 -0.140366 1.2046 0.420907C0.643326 0.98218 0.643326 1.89218 1.2046 2.45346L7.29803 8.54688C7.90212 9.15097 8.88154 9.15097 9.48563 8.54689L15.5791 2.45346C16.1403 1.89218 16.1403 0.982179 15.5791 0.420906Z" fill="#F35F42"/>
+                      </svg>
+                    </p>        
+                    <div class="hidden-box2">
+                      <div class="api-border">
+                        <div class="api-border-block">
+                          <div class="api-border-title">
+                            Parameters
+                          </div>
+                        </div>
+                        <div class="api-border-block2">
+                          <div class="api-border-title">
+                            Description
+                          </div>
+                        </div>  
+                      </div>
+                      <div class="api-border2">
+                        <div class="api-border2-block">
+                          <div class="api-border2-title">
+                            key
+                          </div>
+                        </div>
+                        <div class="api-border2-block2">
+                          <div class="api-border2-title2">
+                            Your API key
+                          </div>
+                        </div>
+                        <div class="api-border2-block">
+                          <div class="api-border2-title">
+                            action
+                          </div>
+                        </div>
+                        <div class="api-border2-block2">
+                          <div class="api-border2-title2">
+                            services
+                          </div>
+                        </div>
+                      </div>
+                      <div class="api-example">
+                        Example response
+                      </div>
+                      <div class="api-height2">
+                        <div class="api-absolute">
+                          <button>COPY</button>
+                        </div>
+                        <div class="api-owerflow">
+                          <div class="api-owerflow-text">
+                            [      
+                          </div>
+                          <div class="api-owerflow-text2">
+                            {
+                          </div>
+                          <div class="api-owerflow-text3">        
+                                
+                                      
+                                <span class="api-orange">"balance": </span><span class="api-green">"100.84292"</span><span class="api-orange">,</span> <br>
+                                       
+                               
+                                      
+                                <span class="api-orange">"currency": </span><span class="api-blue">"USD"</span>        
+                          </div> 
+                          <div class="api-owerflow-text2">
+                            },
+                          </div>
+                          <div class="api-owerflow-text">
+                            ]
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item2">
+                    <p class="text">
+                      Example of PHP code
+                      <svg width="16" height="9" class="icon" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M15.5791 0.420906C15.0178 -0.140366 14.1078 -0.140366 13.5465 0.420907L8.62038 5.34704C8.49416 5.47326 8.2895 5.47326 8.16327 5.34703L3.23715 0.420907C2.67587 -0.140365 1.76587 -0.140366 1.2046 0.420907C0.643326 0.98218 0.643326 1.89218 1.2046 2.45346L7.29803 8.54688C7.90212 9.15097 8.88154 9.15097 9.48563 8.54689L15.5791 2.45346C16.1403 1.89218 16.1403 0.982179 15.5791 0.420906Z" fill="#F35F42"/>
+                      </svg>
+                    </p>       
+                    <div class="hidden-box2">
+                      <div class="api-border">
+                        <div class="api-border-block">
+                          <div class="api-border-title">
+                            Parameters
+                          </div>
+                        </div>
+                        <div class="api-border-block2">
+                          <div class="api-border-title">
+                            Description
+                          </div>
+                        </div>  
+                      </div>
+                      <div class="api-border2">
+                        <div class="api-border2-block">
+                          <div class="api-border2-title">
+                            key
+                          </div>
+                        </div>
+                        <div class="api-border2-block2">
+                          <div class="api-border2-title2">
+                            Your API key
+                          </div>
+                        </div>
+                        <div class="api-border2-block">
+                          <div class="api-border2-title">
+                            action
+                          </div>
+                        </div>
+                        <div class="api-border2-block2">
+                          <div class="api-border2-title2">
+                            services
+                          </div>
+                        </div>
+                      </div>
+                      <div class="api-example">
+                        Example response
+                      </div>
+                      <div class="api-height">
+                        <div class="api-absolute">
+                          <button>COPY</button>
+                        </div>
+                        <div class="api-owerflow">
+                          <div class="api-owerflow-text">
+                            [      
+                          </div>
+                          <div class="api-owerflow-text2">
+                            {
+                          </div>
+                          <div class="api-owerflow-text3">        
+                                <span class="api-orange">"service":</span> <span class="api-blue">1</span><span class="api-orange">,</span> <br>
+                                      
+                                <span class="api-orange">"name": "</span><span class="api-green">Followers</span><span class="api-orange">",</span> <br>
+                                       
+                               <span class="api-orange">"type": "</span><span class="api-green">Default</span><span class="api-orange">",</span>
+                                   <br>    
+                               <span class="api-orange">"category": "</span><span class="api-green">First Category</span><span class="api-orange">",</span><br>
+                                      
+                                <span class="api-orange">"rate": "</span><span class="api-blue">0.90</span><span class="api-orange">",</span><br>
+                                      
+                                <span class="api-orange">"min": "</span><span class="api-blue">50</span><span class="api-orange">",</span><br>
+                                     
+                                 <span class="api-orange">"max": "</span><span class="api-blue">10000</span><span class="api-orange">",</span><br>
+                                       
+                               <span class="api-orange">"refill":</span> <span class="api-green">true</span><span class="api-orange">,</span><br>
+                                        
+                              <span class="api-orange">"cancel":</span> <span class="api-green">true</span>
+                          </div> 
+                          <div class="api-owerflow-text2">
+                            },
+                          </div>
+                          <div class="api-owerflow-text2">  
+                            {
+                          </div>
+                          <div class="api-owerflow-text3">        
+                                <span class="api-orange">"service":</span> <span class="api-blue">2</span><span class="api-orange">,</span> <br>
+                                      
+                                <span class="api-orange">"name": "</span><span class="api-green">Comments</span><span class="api-orange">",</span> <br>
+                                       
+                               <span class="api-orange">"type": "</span><span class="api-green">Custom Comments</span><span class="api-orange">",</span>
+                                   <br>    
+                               <span class="api-orange">"category": "</span><span class="api-green">Second Category</span><span class="api-orange">",</span><br><br>
+                                      
+                                <span class="api-orange">"rate": "</span><span class="api-blue">8</span><span class="api-orange">",</span><br>
+                                      
+                                <span class="api-orange">"min": "</span><span class="api-blue">10</span><span class="api-orange">",</span><br>
+                                     
+                                 <span class="api-orange">"max": "</span><span class="api-blue">1500</span><span class="api-orange">",</span><br>
+                                       
+                               <span class="api-orange">"refill":</span> <span class="api-green">false</span><span class="api-orange">,</span><br>
+                                        
+                              <span class="api-orange">"cancel":</span> <span class="api-green">true</span>
+                          </div>  
+                          <div class="api-owerflow-text2">    
+                            }
+                          </div>
+                          <div class="api-owerflow-text">
+                            ]
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  
+                   
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+    </section>
+
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-restagles">
+          <div class="footer-restagle"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="footer-wrap">
+          <div class="footer-block footer-block-mb">
+            <div class="footer-copy">
+              © Copyright. All Rights Reserved.
+            </div>
+          </div>
+          <div class="footer-block">
+            <div class="footer-inner">
+              <ul class="footer-ul">
+                <li class="footer-li">
+                  <a href="#">Home</a>
+                </li>
+                <li class="footer-li">
+                  <a href="#">Services</a>
+                </li>
+                <li class="footer-li">
+                  <a href="#">API</a>
+                </li>
+                <li class="footer-li">
+                  <a href="#">Blog</a>
+                </li>
+              </ul>
+              <div class="footer-button footer-button-mb">
+                <button>For resellers</button>
+              </div>
+            </div>
+          </div>
+          <div class="footer-block">
+            <div class="footer-links">
+              <div class="footer-link">
+                <a href="#">
+                  <img src="images/footer-link.svg" alt="">
+                  admin@extra-panel.com
+                </a>
+              </div>
+              <div class="footer-link">
+                <a href="#">
+                  <img src="images/footer-link2.svg" alt="">
+                  @siccsc
+                </a>
+              </div>
+              <div class="footer-link">
+                <a href="#">
+                  <img src="images/footer-link3.svg" alt="">
+                  +79265082540
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-mobile">
+          <div class="footer-button footer-button-mb2">
+              <button>For resellers</button>
+          </div>
+          <div class="footer-copy">
+              © Copyright. All Rights Reserved.
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <div id="infoModal" class="modal">
+        <div class="modalHeader">
+          
+        <div class="modalCloseButton">
+            <img src="images/close-modal.svg" alt="">
+          </div>
+        </div>
+        <div class="modalContent">
+          <ul class="tabs">
+              <li class="tab-link current" data-tab="tab-1">Sign in</li>
+              <li class="tab-link mobila-padding" data-tab="tab-2">Sign up</li> 
+          </ul>
+          <div class="modal-content">
+            <div id="tab-1" class="tab-content current">
+              
+              <div class="modal-input5">
+                <input type="text" size="40" placeholder="Username">
+              </div>
+              <div class="modal-input4">
+                <input type="text" size="40" placeholder="*************">
+              </div>
+              <div class="modal-inner">
+                <div class="work-chekbox">
+                  <label class="checkbox-main">
+                    <input type="checkbox" name="1">
+                      <div class="chekbox-title">
+                        Remember me
+                      </div> 
+                    <span class="checkbox"></span>
+                  </label>
+                </div>
+                <div class="work-password">
+                  <a href="#">
+                    Forgot password?
+                  </a>
+                </div>
+              </div>
+              <div class="modal-button">
+                <button>Sign in</button>
+              </div>
+              <div class="modal-wrap">
+                <div class="modal-wrap-title">
+                  Already have an account?
+                </div>
+                <div class="modal-wrap-link">
+                  <a href="#">Sign up</a>
+                </div>
+              </div>
+            </div>
+            <div id="tab-2" class="tab-content">
+              <div class="modal-blank">
+                <div class="modal-blank-title">
+                  Username field cannot be blank
+                </div>
+                <div class="madal-blank-button">
+                  <button>
+                    <img src="images/madal-absolute-button.svg" alt="">
+                  </button>
+                </div>
+              </div>
+              <div class="modal-input">
+                <input type="text" size="40" placeholder="Username">
+              </div>
+              <div class="modal-input2">
+                <input type="text" size="40" placeholder="E-mail">
+              </div>
+              <div class="modal-input3">
+                <input type="text" size="40" placeholder="WhatsApp">
+              </div>
+              <div class="modal-input4">
+                <input type="text" size="40" placeholder="Password">
+              </div>
+              <div class="modal-input4">
+                <input type="text" size="40" placeholder="Confirm password">
+              </div>
+              <div class="modal-button">
+                <button>Registration</button>
+              </div>
+              <div class="modal-wrap">
+                <div class="modal-wrap-title">
+                  Already have an account?
+                </div>
+                <div class="modal-wrap-link">
+                  <a href="#">Sign in</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+    <div id="infoModal2" class="modal2">
+        <div class="modalHeader2">
+          
+        <div class="modalCloseButton2">
+            <img src="images/close-modal.svg" alt="">
+          </div>
+        </div>
+        <div class="modalContent2">
+          <ul class="tabs2">
+              <li class="tab-link" data-tap="tap-1">Sign in</li>
+              <li class="tab-link current" data-tap="tap-2">Sign up</li> 
+          </ul>
+          <div class="modal-content">
+            <div id="tap-1" class="tab-content2">
+              
+              <div class="modal-input5">
+                <input type="text" size="40" placeholder="Username">
+              </div>
+              <div class="modal-input4">
+                <input type="text" size="40" placeholder="*************">
+              </div>
+              <div class="modal-inner">
+                <div class="work-chekbox">
+                  <label class="checkbox-main">
+                    <input type="checkbox" name="1">
+                      <div class="chekbox-title">
+                        Remember me
+                      </div> 
+                    <span class="checkbox"></span>
+                  </label>
+                </div>
+                <div class="work-password">
+                  <a href="#">
+                    Forgot password?
+                  </a>
+                </div>
+              </div>
+              <div class="modal-button">
+                <button>Sign in</button>
+              </div>
+              <div class="modal-wrap">
+                <div class="modal-wrap-title">
+                  Already have an account?
+                </div>
+                <div class="modal-wrap-link">
+                  <a href="#">Sign up</a>
+                </div>
+              </div>
+            </div>
+            <div id="tap-2" class="tab-content2 current">
+              <div class="modal-blank">
+                <div class="modal-blank-title">
+                  Username field cannot be blank
+                </div>
+                <div class="madal-blank-button">
+                  <button>
+                    <img src="images/madal-absolute-button.svg" alt="">
+                  </button>
+                </div>
+              </div>
+              <div class="modal-input">
+                <input type="text" size="40" placeholder="Username">
+              </div>
+              <div class="modal-input2">
+                <input type="text" size="40" placeholder="E-mail">
+              </div>
+              <div class="modal-input3">
+                <input type="text" size="40" placeholder="WhatsApp">
+              </div>
+              <div class="modal-input4">
+                <input type="text" size="40" placeholder="Password">
+              </div>
+              <div class="modal-input4">
+                <input type="text" size="40" placeholder="Confirm password">
+              </div>
+              <div class="modal-button">
+                <button>Registration</button>
+              </div>
+              <div class="modal-wrap">
+                <div class="modal-wrap-title">
+                  Already have an account?
+                </div>
+                <div class="modal-wrap-link">
+                  <a href="#">Sign in</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+  </body>
+
+  
+</html>

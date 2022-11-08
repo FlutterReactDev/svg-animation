@@ -1,0 +1,184 @@
+svg * {
+    transform-box: fill-box;
+  }
+  #svg-clock,
+  #svg-user,
+  #svg-time,
+  #svg-dot-1,
+  #svg-card-1,
+  #browser-1,
+  #blue-line-1,
+  #svg-gear-small-1,
+  #svg-shield,
+  #svg-gear-big-1,
+  #svg-card-2,
+  #svg-dot-2,
+  #svg-planet,
+  #svg-cursor,
+  #svg-browser-2,
+  #svg-dot-3,
+  #svg-dot-4,
+  #svg-tick,
+  #svg-gear-small-3,
+  #svg-gear-big-4,
+  #grey-line,
+  #svg-geard-group,
+  #svg-dot-5,
+  #svg-dot-6,
+  #svg-card-blank {
+    transition: all 0.3s;
+  }
+  
+  #svg-gear-small-2 {
+    transition: all 0.5s;
+  }
+  #blue-line-1 path,
+  #white-line-1 path,
+  #white-line-2 path,
+  #white-line-3 path {
+    transition: all 0.3s;
+  }
+  #svg-gear-big-1 {
+    transform-origin: center;
+    transition: all 0.5s;
+  }
+  #svg-planet {
+    transform-origin: right center;
+  }
+  #svg-gear-small-2 {
+    transform-origin: center;
+  }
+  
+  #svg-tick {
+    transform-origin: center;
+  }
+  
+  #svg-gear-small-3 {
+    transform-origin: center;
+    transition: all 0.5s;
+  }
+
+  #svg-gear-big-4 {
+    transform-origin: center;
+    transition: all 0.5s;
+  }
+
+  #svg-geard-group {
+    transform-origin: 100% 100%;
+  }
+  /*4*/
+  .reasons-block:hover #svg-clock {
+    transform: rotate(-27deg);
+    transform-origin: 0 0;
+  }
+  
+  .reasons-block:hover #svg-user {
+    transform: translate(-16px, 5px) rotate(10deg);
+    transform-origin: center;
+  }
+  
+  .reasons-block:hover #svg-time {
+    transform: translateX(6px);
+  }
+  
+  .reasons-block:hover #svg-dot-1 {
+    transform: translate(5px, -5px);
+  }
+  .reasons-block:hover #svg-card-1 {
+    transform: translateY(-8px);
+  }
+  
+  /*3*/
+  
+  .reasons-block:hover #browser-1 {
+    transform: translateY(-4px);
+  }
+  
+  .reasons-block:hover #browser-1 #blue-line-1 path {
+    d: path("M115 97H82V100H115V97Z");
+  }
+  .reasons-block:hover #browser-1 #white-line-1 path {
+    d: path("M153 118H124V121H153V118Z");
+  }
+  
+  .reasons-block:hover #browser-1 #white-line-2 path {
+    d: path("M123 152H82V148H123V152Z");
+  }
+  
+  .reasons-block:hover #browser-1 #white-line-3 path {
+    d: path("M148 163H107V159H148V163Z");
+  }
+  
+  .reasons-block:hover #svg-gear-small-1 {
+    transform: translate(2px, 7px);
+  }
+  
+  .reasons-block:hover #svg-shield {
+    transform: translateX(-5px);
+  }
+  
+  .reasons-block:hover #svg-gear-big-1 {
+    transform: rotate(-180deg);
+    transform-origin: center;
+  }
+  
+  .reasons-block:hover #svg-card-2 {
+    transform: translateY(-8px);
+  }
+  
+  .reasons-block:hover #svg-dot-2 {
+    transform: translate(8px, -8px);
+  }
+  
+  .reasons-block:hover #svg-planet {
+    transform: rotate(25deg);
+  }
+  
+  .reasons-block:hover #svg-gear-small-2 {
+    transform: rotate(-180deg);
+  }
+  
+  .reasons-block:hover #svg-cursor {
+    transform: translate(7px, -8px);
+  }
+  
+  .reasons-block:hover #svg-browser-2 {
+    transform: translateY(-5px);
+  }
+  
+  .reasons-block:hover #svg-dot-3 {
+    transform: translateX(-20px);
+  }
+  
+  .reasons-block:hover #svg-dot-4 {
+    transform: translateY(9px);
+  }
+  
+  .reasons-block:hover #svg-tick {
+    transform: scale(0.9);
+  }
+  .reasons-block:hover #svg-gear-small-3 {
+    transform: scale(0.8) rotate(-180deg);
+  }
+  .reasons-block:hover #svg-gear-big-4 {
+    transform: scale(1) rotate(-180deg);
+  }
+  .reasons-block:hover #grey-line {
+    transform: translateX(5px);
+  }
+  
+  .reasons-block:hover #svg-geard-group {
+    transform: scale(1.1);
+  }
+  
+  .reasons-block:hover #svg-dot-5 {
+    transform: translateX(-5px);
+  }
+  
+  .reasons-block:hover #svg-dot-6 {
+    transform: translateY(10px);
+  }
+  
+  .reasons-block:hover #svg-card-blank {
+      transform: translateY(-5px);
+  }
